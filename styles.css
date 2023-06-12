@@ -1,0 +1,13 @@
+span.listItem {
+    color:blue;
+    padding: 10px;
+}
+
+span.sub {
+    color: black;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
