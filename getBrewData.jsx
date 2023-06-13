@@ -126,8 +126,8 @@ function App() {
       ) : (
         <ul>
              {page.map(item => (
-            <li key={item.id}><span className="listItem">
-                {item.name} </span><br></br>
+            <li key={item.id} className="listItem"><a href={item.website_url} >
+                {item.name} </a><br></br>
                 <span className="sub">{item.city}, {item.state}</span><br></br>
                 <span className="sub">Type of brewery: {item.brewery_type}</span>
             </li>
